@@ -20,12 +20,3 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-
-tasks.register('BLOCKER2', Test){
-    testLogging {
-        events "passed", "skipped", "failed"
-    }
-    useJUnitPlatform{
-        includeTags("BLOCKER2")
-    }
-}
