@@ -10,6 +10,7 @@ public class Glossary {
 
     private GlossaryInner glossary;
 
+
     public String getComment() {
         return comment;
     }
